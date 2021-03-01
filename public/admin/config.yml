@@ -10,4 +10,4 @@ collections:
     create: true
     fields:
       - {label: "Sign", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
